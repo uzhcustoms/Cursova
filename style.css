@@ -34,6 +34,12 @@ a {
      background-color: rgb(245, 245, 245);
 }
 
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('image/bars-solid.svg');
+}
+
+
+
 
 /* sm */
 @media only screen and (max-width: 500px) {
