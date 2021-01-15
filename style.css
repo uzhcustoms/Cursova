@@ -7,10 +7,6 @@ body {
 
 }
 
-.container {
-    width: 90%;
-}
-
 a {
     text-decoration: none;
 }
@@ -31,7 +27,31 @@ a {
 
 .header,
 .list-group-item {
-     background-color: rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    
+}
+.list-group-item:hover {
+    background-color: #c32056;
+    
+}
+
+.list-group-item-action.active {
+    background-color: #c32056;
+    color: white;
+}
+
+
+.text-1 {
+     color: white;
+}
+.text-1:hover {
+     color: white;
+}
+.text {
+    color: #868686;
+}
+.text:hover {
+    color: white;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -41,20 +61,304 @@ a {
 
 
 
+
+.card-price-in,
+.grafik-in,
+.task-in {
+    position: relative;
+    box-shadow: 2px 2px 3px 1px #b3b3b3;
+}
+
+.leyba-price {
+    position: absolute;
+    top: -15px;
+    
+    width: 60px;
+    height: 60px;
+}
+
+.grafik-img {
+    position: absolute;
+    top: -15px;
+    
+    margin-right: 15px;
+    height: 140px;
+}
+
+.task-in-title {
+    position: absolute;
+    top: -15px;
+    width: 93%;
+    margin-right: 15px;
+    height: 55px;
+}
+
+.task-in-title-2 {
+    position: absolute;
+    top: -15px;
+    width: 93%;
+    margin-right: 15px;
+    height: 65px;
+}
+
+.task-in-title-3 {
+    position: absolute;
+    top: -15px;
+    width: 95%;
+    margin-right: 15px;
+    height: 65px;
+}
+
+.profile-logo-img {
+    position: absolute;
+    top: -50px;
+}
+
+.leyba-price-1 {
+    background-color: #448b00;
+}
+
+.leyba-price-2 {
+    background-color: #d89e24;
+}
+
+.leyba-price-3{
+    background-color: #274d97;
+}
+
+.leyba-price-4 {
+    background-color: #c32056;
+}
+
+.title-price h3 {
+    font-size: 0.55em;
+}
+
+.footer-price {
+    font-size: 0.55em;
+}
+
+.kesh-price {
+    font-size: 1.2em;
+}
+
+
+
+.grafik-title {
+    margin-top: 7.25em;
+    font-size: 1.1em;
+}
+
+.grafik-list {
+    font-size: 0.75em;
+}
+
+
+.task {
+    width: 100%;
+}
+
+.profile {
+    width: 100%;
+    order: 2;
+}
+
+.profile-logo {
+    width: 100%;
+    order: 1;
+}
+
+.tasks-1 {
+    font-size: 1.15em;
+}
+
+.tasks-2 {
+    font-size: 0.9em;
+}
+
+.task-in-title a,
+.task {
+    font-size: 0.9em;
+
+}
+
+.task-group span {
+    font-size: 0.9em;
+}
+
+.task-hover:hover {
+    background-color: #dead49;
+}
+
+.task-id {
+    width: 13%;
+}
+.task-name {
+    width: 37%;
+}
+.task-salary {
+    width: 25%;
+}
+.task-country {
+    width: 25%;
+}
+
+.task-group-list {
+    margin-top: 3.2em;
+}
+
+.task {
+    display: flex;
+    align-items: stretch;
+        
+}
+
+.task-in  {
+     width: 100%;
+}
+
+.task-group-list-1 {
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+}
+
+.bg-task-group-list {
+    color: #65becb;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.65em;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color:  #616161;
+}
+
+.logo-footer-title {
+    font-size: 0.85em;
+    font-weight: 400;
+    color:  #616161;
+}
+
+
+.company,
+.username,
+.email,
+.city,
+.country,
+.postal {
+    width: 33%;
+}
+
+.firstname,
+.lastname {
+    width: 50%;
+}
+
+.address {
+    width: 100%;
+}
+
+
+
+#company,
+#username,
+#email,
+#lastname,
+#firstname,
+#address,
+#postal,
+#country,
+#city {
+    width: 100%;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #6e6e6e;
+    height: 30px;
+}
+
+.form-group {
+    font-size: 0.75em;
+}
+
+.profile-title-list {
+    font-size: 0.75em;
+   
+}
+
+.profile-title-name {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.profile-title-item {
+    font-size: 0.8em;
+    
+}
+
+.profile-logo-img img {
+    box-shadow: 2px 2px 3px 1px #b3b3b3;
+    border-radius: 50%;
+}
+
+
+
 /* sm */
 @media only screen and (max-width: 500px) {
     .col-sm-12 {
         width: 100%; 
     }
-
+    .card-price {
+        width: 100%;
     }
+    .grafik {
+        width: 100%;
+    }
+    .grafik-img {
+        
+        height: 200px;
+    }
+    .grafik-title {
+        margin-top: 10em;
+    }
+    .grafik-img-list {
+        height: 160px;
+    }
+}
 
 /* md */
 @media only screen and (min-width: 500px) and (max-width: 650px) {
     .col-md-12 {
         width: 100%; 
     }
-
+    .card-price {
+        width: 50%;
+    }
+    .grafik {
+        width: 100%;
+    }
+    .grafik-img {
+       
+        height: 220px;
+    }
+    .grafik-title {
+        margin-top: 11em;
+    }
+    .grafik-img-list {
+        height: 180px;
+    }
+    .task-in-title,
+    .task-in-title-2 {
+        width: 94%;
+    }
 }
 
 /* lg */
@@ -62,10 +366,20 @@ a {
     .col-lg-3 {
         width: 100%; 
     }
-
     .col-lg-9 {
         width: 100%;
     }
+    .card-price {
+        width: 50%;
+    }
+    .grafik {
+        width: 33.3333%;
+    }
+    .task-in-title,
+    .task-in-title-2 {
+        width: 95%;
+    }
+    
 }
 
 /* xl */
@@ -73,10 +387,32 @@ a {
     .col-xl-2 {
         width: 25%; 
     }
-
     .col-xl-10 {
         width: 75%;
     }
+    .card-price {
+        width: 50%;
+    }
+    .grafik {
+        display: flex;
+        align-items: stretch;
+        width: 33.3333%;
+    }
+    .grafik-img {
+        height: 90px;
+    }
+    .grafik-img-list {
+        height: 60px;
+        width: 77%;
+    }
+    .grafik-title {
+        margin-top: 4em;
+    }
+    .task-in-title,
+    .task-in-title-2 {
+        width: 95%;
+    }
+     
 }
 
 /* xxl */
@@ -84,9 +420,25 @@ a {
     .col-xxl-2 {
         width: 20%;
     }
-
     .col-xxl-10 {
         width: 80%;
+    }
+    .card-price {
+        width: 25%;
+    }
+    .grafik {
+        width: 33.3333%;
+    }
+    .task {
+        width: 50%;
+    }
+    .profile {
+    width: 66%;
+    order: 1;
+    }
+    .profile-logo {
+    width: 33%;
+    order: 2;
     }
 }
 

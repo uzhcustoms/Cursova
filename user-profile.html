@@ -1,1 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Company-admin User profile</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Navbar -->
+            <div class="header col-sm-12 col-md-12 col-lg-3 col-xl-2 col-xxl-2">
+
+                <nav class="list-group navbar navbar-expand-md navbar-bg navbar-dark " id="">
+
+                    <button class="navbar-toggler " type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="row">
+
+                            <div class="sidebar-header p-3">
+                                <h3 class="pl-4">Company</h3>
                             </div>
+
+                            <ul class="list-group list-unstyled components mt-4 pl-3 pr-3">
+                                <li class="list-group-item list-group-item-action rounded-0 pt-3 pb-3">
+                                    <a href="index.html" class="text"><img class="pr-2" src="image/dashboard_gray.svg"
+                                            width="35px">Dashboard</a>
+                                </li>
+                                <li class="list-group-item list-group-item-action active pt-3 pb-3">
+                                    <a href="user-profile.html" class="text-1"><img class="pr-2"
+                                            src="image/account_white.svg" width="35px">User profile</a>
+                                </li>
+                                <li class="list-group-item list-group-item-action  pt-3 pb-3"> <a href="#"
+                                        class="text"><img class="pr-2" src="image/map_gray.svg" width="35px">Maps
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action  pt-3 pb-3">
+                                    <a href="#" class="text"><img class="pr-2" src="image/notify_gray.svg"
+                                            width="35px">Notifications</a>
+                                </li>
+                                <li class="list-group-item list-group-item-action rounded-0  pt-3 pb-3">
+                                    <a href="#" class="text"><img class="pr-2" src="image/support_gray.svg"
+                                            width="35px">Support</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+            <!-- Main -->
+
+            <div class="main col-sm-12 col-md-12 col-lg-9 col-xl-10 col-xxl-10 ">
+                <div class="container-fluid p-3 mb-5 ">
+
+                    <div class="main-title pt-2">
+                        <h3>User Profile</h3>
+                    </div>
+
+                    <div class="card-value">
+                        <div class="row">
+
+
+                            <div class="profile">
+                                <div class="task-in  bg-white p-3 mt-5">
+
+                                    <div class="task-in-title-3 leyba-price-4 d-flex align-items-center">
+                                        <div class="pl-3  align-items-center">
+
+                                            <div class=" tasks tasks-1 text-white">
+                                                <span class="">Edit Profile</span>
+                                            </div>
+
+                                            <div class=" tasks tasks-2 text-white">
+                                                <span class="">Complete your profile</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <form class="" name="registr" action="index.html" method="post">
+                                        <div class="form-group">
+
+
+                                            <div class="registration-form">
+                                                <div class="d-flex flex-row mt-5 justify-content-center">
+                                                    <div class="company pr-3">
+                                                        <label for="company">Company</label>
+                                                        <input id="company" type="text" name="registr" required>
+                                                    </div>
+                                                    <div class="username">
+                                                        <label for="username">Username</label>
+                                                        <input id="username" type="text" name="registr" required>
+                                                    </div>
+                                                    <div class="email pl-3">
+                                                        <label for="email">Email address</label>
+                                                        <input id="email" type="email" name="registr" required>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="registration-form">
+                                                <div class="d-flex flex-row mt-3 justify-content-center">
+                                                    <div class="firstname pr-3">
+                                                        <label for="firstname">First name</label>
+                                                        <input id="firstname" type="text" name="registr" required>
+                                                    </div>
+                                                    <div class="lastname">
+                                                        <label for="lastname">Last name</label>
+                                                        <input id="lastname" type="text" name="registr" required>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="registration-form">
+                                                <div class="d-flex flex-row mt-3 justify-content-center">
+                                                    <div class="address">
+                                                        <label for="address">Address</label>
+                                                        <input id="address" type="text" name="registr" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="registration-form">
+                                                <div class="d-flex flex-row mt-3 justify-content-center">
+                                                    <div class="city pr-3">
+                                                        <label for="city">City</label>
+                                                        <input id="city" type="text" name="registr" required>
+                                                    </div>
+                                                    <div class="country">
+                                                        <label for="country">Country</label>
+                                                        <input id="country" type="text" name="registr" required>
+                                                    </div>
+                                                    <div class="postal pl-3">
+                                                        <label for="postal">Postal code</label>
+                                                        <input id="postal" type="email" name="registr" required>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </form>
+
+
+                                </div>
+                            </div>
+
+                            <div class="profile-logo">
+                                <div class="task-in  bg-white p-3 mt-5 d-flex justify-content-center">
+                                    <div class="profile-logo-img ">
+                                        <img src="image/profile.png" class="" width="100px">
+                                    </div>
+
+                                    <div
+                                        class="profile-logo-title d-flex flex-column text-center justify-content-center">
+                                        <span class="profile-title-list mt-5">CEO / CO-FOUNDER</span>
+                                        <span class="profile-title-name mt-3">Alec Thompson</span>
+                                        <span class="profile-title-item mt-3">Don't be scared of the truth because we
+                                            need to
+                                            restart the human
+                                            foundation in truth And I love you like Kanye I love Rick Owens' bed design
+                                            but the back is...</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <hr class="ml-3 mb-1">
+
+
+                <footer class="">
+
+                    <div class="list-group-footer mb-2">
+
+                        <div class="container-fluid">
+                            <div class="d-flex flex-row mt-3 mb-3">
+                                <ul class="navbar-nav d-flex flex-row ">
+                                    <li class="nav-item ml-3">
+                                        <a class="nav-link" aria-current="page" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item ml-3">
+                                        <a class="nav-link ml-3" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item  ml-3">
+                                        <a class="nav-link ml-3" href="#">Licenses</a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="logo-footer pr-1 ml-auto">
+                                    <span class="logo-footer-title">2019 - made with love</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </footer>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
