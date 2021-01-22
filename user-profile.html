@@ -27,7 +27,7 @@
                     <button class="navbar-toggler " type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon "></span>
+                        <img class="" src="image/menu.png" width="35px">
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,26 +38,33 @@
                             </div>
 
                             <ul class="list-group list-unstyled components mt-4 pl-3 pr-3">
-                                <li class="list-group-item list-group-item-action rounded-0 pt-3 pb-3">
-                                    <a href="index.html" class="text"><img class="pr-2" src="image/dashboard_gray.svg"
-                                            width="35px">Dashboard</a>
-                                </li>
-                                <li class="list-group-item list-group-item-action active pt-3 pb-3">
-                                    <a href="user-profile.html" class="text-1"><img class="pr-2"
-                                            src="image/account_white.svg" width="35px">User profile</a>
-                                </li>
-                                <li class="list-group-item list-group-item-action  pt-3 pb-3"> <a href="#"
-                                        class="text"><img class="pr-2" src="image/map_gray.svg" width="35px">Maps
-                                    </a>
-                                </li>
-                                <li class="list-group-item list-group-item-action  pt-3 pb-3">
-                                    <a href="#" class="text"><img class="pr-2" src="image/notify_gray.svg"
-                                            width="35px">Notifications</a>
-                                </li>
-                                <li class="list-group-item list-group-item-action rounded-0  pt-3 pb-3">
-                                    <a href="#" class="text"><img class="pr-2" src="image/support_gray.svg"
-                                            width="35px">Support</a>
-                                </li>
+                                <a href="index.html" class="text">
+                                    <li class="list-group-item list-group-item-action rounded-0 pt-3 pb-3">
+                                        <img class="pr-2" src="image/dashboard_gray.svg" width="35px">Dashboard
+
+                                    </li>
+                                </a>
+                                <a href="user-profile.html" class="text-1">
+                                    <li class="list-group-item list-group-item-action active pt-3 pb-3">
+                                        <img class="pr-2" src="image/account_white.svg" width="35px">User profile
+                                    </li>
+                                </a>
+                                <a href="#" class="text">
+                                    <li class="list-group-item list-group-item-action  pt-3 pb-3"> <img class="pr-2"
+                                            src="image/map_gray.svg" width="35px">Maps
+
+                                    </li>
+                                </a>
+                                <a href="#" class="text">
+                                    <li class="list-group-item list-group-item-action  pt-3 pb-3">
+                                        <img class="pr-2" src="image/notify_gray.svg" width="35px">Notifications
+                                    </li>
+                                </a>
+                                <a href="#" class="text">
+                                    <li class="list-group-item list-group-item-action rounded-0  pt-3 pb-3">
+                                        <img class="pr-2" src="image/support_gray.svg" width="35px">Support
+                                    </li>
+                                </a>
                             </ul>
 
                         </div>
@@ -82,16 +89,20 @@
                             <div class="profile">
                                 <div class="task-in  bg-white p-3 mt-5">
 
-                                    <div class="task-in-title-3 leyba-price-4 d-flex align-items-center">
+                                    <div class="task-in-title-3 leyba-price-4 d-flex flex-column align-items-center">
                                         <div class="pl-3  align-items-center">
+                                            <div class="www mt-1">
+                                                <div class=" tasks tasks-1 text-white">
+                                                    <span class="">Edit Profile</span>
+                                                </div>
 
-                                            <div class=" tasks tasks-1 text-white">
-                                                <span class="">Edit Profile</span>
+                                                <div class=" tasks tasks-2 text-white">
+                                                    <span class="">Complete your profile</span>
+                                                </div>
                                             </div>
 
-                                            <div class=" tasks tasks-2 text-white">
-                                                <span class="">Complete your profile</span>
-                                            </div>
+                                            <img class="grafik-img-list mt-3 img-mul" src="image/graphics.svg"
+                                                width="87%" height="10px">
 
                                         </div>
                                     </div>
@@ -101,7 +112,8 @@
 
 
                                             <div class="registration-form">
-                                                <div class="d-flex flex-row mt-5 justify-content-center">
+                                                <div
+                                                    class="d-flex flex-row mt-5 justify-content-center align-items-end">
                                                     <div class="company pr-3">
                                                         <label for="company">Company</label>
                                                         <input id="company" type="text" name="registr" required>
@@ -142,7 +154,8 @@
                                             </div>
 
                                             <div class="registration-form">
-                                                <div class="d-flex flex-row mt-3 justify-content-center">
+                                                <div
+                                                    class="d-flex flex-row mt-3 justify-content-center align-items-end">
                                                     <div class="city pr-3">
                                                         <label for="city">City</label>
                                                         <input id="city" type="text" name="registr" required>
@@ -158,6 +171,23 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="registration-form">
+                                                <div class="d-flex flex-column mt-3 justify-content-center">
+                                                    <label for="textareas">About my</label>
+                                                    <textarea name="" id="textareas" rows="2" cols=""></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="registration-form">
+                                                <div class="d-flex flex-column mt-3 justify-content-center">
+                                                    <div class="update ml-auto">
+                                                        <input id="update" type="submit" value="UPDATE PROFILE">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
 
 
                                         </div>
@@ -200,7 +230,7 @@
                     <div class="list-group-footer mb-2">
 
                         <div class="container-fluid">
-                            <div class="d-flex flex-row mt-3 mb-3">
+                            <div class="d-flex flex-row mt-3 mb-3 footer">
                                 <ul class="navbar-nav d-flex flex-row ">
                                     <li class="nav-item ml-3">
                                         <a class="nav-link" aria-current="page" href="#">About</a>
